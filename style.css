@@ -1,0 +1,79 @@
+html {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #dfdfdf;
+}
+
+header {
+    background-color: grey;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 0.2rem;
+    margin-bottom: 2rem;
+    box-shadow: 1rem 0 0.8rem gray;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+.container {
+    width: 420px;
+    margin: 0 auto;
+}
+
+section article {
+    transition: box-shadow 0.5s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+section article:hover {
+    box-shadow: 0 0 2rem rgba(86, 199, 180, 0.5);
+}
+
+.imagen_post {
+    margin: 10px;
+}
+
+.titulo_post, .contenido_post {
+    margin: 0.8rem;
+}
+
+
+footer {
+    background-color: rgb(99, 99, 99);
+    padding: 1rem;
+    box-shadow: -1rem 0 0.8rem gray;
+}
+
+.footer {
+    float: right;
+    display: block;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0;
+}
+
+a:link {color: black;}
+a:visited {color: black;}
+a:hover { 
+    background-color: rgba(170, 170, 170, 0.473);
+    border-radius: 0.3rem;
+    background-size: cover;
+}
+a:active {background-color: rgba(170, 170, 170, 0.473);}
+

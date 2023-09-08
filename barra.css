@@ -1,0 +1,54 @@
+#menuIcon {
+    margin: 1rem;
+    font-size: 2rem;
+    padding: 0.3rem;
+    border-radius: 3rem;
+    box-shadow: 0 0 0.5rem rgba(86, 199, 180, 0.3);
+    cursor: pointer;
+    user-select: none;
+    color: gray;
+}
+
+#menuIcon:active{
+    background-color: rgba(86, 199, 180, 0.3);
+}
+
+.sidebarContainer {
+    margin: 1rem;
+    border-radius: 15px;
+    border-left: none;
+    border-right: none;
+    background-color: #fff;
+    float: left;
+    width: 15lh;
+    height: 80vh;
+    box-shadow: 0 0 0.8rem rgba(86, 199, 180, 0.3);
+}
+
+.sidebar {
+    color: gray;
+    margin: 2rem 1.2rem 3rem 2rem;
+    margin-left: 2rem;
+    display: flex;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    border-radius: 1rem;
+}
+
+.sidebar:hover {
+    box-shadow: 0 0 1rem rgba(86, 199, 180, 0.8);
+}
+
+.logoSidebar {
+    float: left;
+}
+
+.sidebar h1{
+    text-align: left;
+    margin: auto;
+}
+
+#sidebarSalir {
+    margin-top: 16rem;
+}
+
